@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+  }
+
+.spacer-bottom {
+    margin-bottom: 50px;
+}
+
+.spacer-bottom-sm {
+    margin-bottom: 25px;
+}
+
+.orange {
+    color: #ff6c00;
+}
+
+.white {
+    color: white;
+}
+
+.blue-bg {
+    background-color: #39a8f7;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.header-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header-copy-con {
+    width: 80%;
+    color: white;
+    font-size: larger;
+    margin-top: 30px;
+}
+
+.headings {
+    font-family: 'Dancing Script', cursive;
+}
+
+.subheadings {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.subheadings-1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.subheadings-2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.heading1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.link {
+    color: white;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.link:hover {
+    color: white;
+}
+
+.link-text {
+    font-size: x-large;
+}
+
+.video-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.video-copy-con {
+    color: white;
+    width: 80%;
+    margin-top: 70px;
+    font-size: larger;
+}
+
+.caro-section-copy {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: larger;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.caro-con {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.caro-div {
+    width: 60%;
+    margin-left: 20%
+}
+
+.caro-img {
+    width: 100%;
+    height: 550px;
+    border-radius: 10px;
+}
+
+.form-con {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+.form-header {
+    font-size: 40px;
+    text-align: left;
+    width: 100%;
+}
+
+.form-inputs {
+    width: 100%;
+    background: none;
+    outline: none;
+    border: 2px solid white;
+}
+
+.form-inputs::placeholder {
+    color: white;
+}
+
+.input-minimal {
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.form-button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.form-button:hover {
+    background-color: white;
+    color: #39a8f7;
+    transition-duration: 200ms;
+}
