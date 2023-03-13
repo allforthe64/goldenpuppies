@@ -34,11 +34,11 @@
     padding-bottom: 50px;
 }
 
-.header-copy-con {
-    width: 80%;
+.intro-copy-con {
+    width: 30%;
     color: white;
     font-size: larger;
-    margin-top: 30px;
+    margin-left: 8%;
 }
 
 .headings {
@@ -63,12 +63,13 @@
 .heading1 {
     font-size: 50px;
     font-weight: 800;
+    text-shadow: white 1px 1px 1px;
 }
 
 .link {
-    color: white;
-    font-weight: 600;
-    font-style: italic;
+    color: #ff6c00;
+    font-weight: 700;
+    text-shadow: white 1px 1px 1px;
 }
 
 .link:hover {
@@ -79,24 +80,36 @@
     font-size: x-large;
 }
 
+.link2 {
+    color: black;
+    font-weight: 700;
+}
+
+.link2:hover {
+    color: #ff6c00;
+}
+
+video {
+    margin-left: 7%;
+}
+
 .video-con {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .video-copy-con {
     color: white;
-    width: 80%;
+    width: 60%;
+    margin-left: 20%;
     margin-top: 70px;
     font-size: larger;
 }
 
 .caro-section-copy {
-    width: 80%;
+    width: 60%;
     margin-top: 50px;
-    margin-left: 10%;
+    margin-left: 20%;
     font-size: larger;
 }
 
