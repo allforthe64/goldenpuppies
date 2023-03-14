@@ -26,21 +26,6 @@
     background-color: white;
 }
 
-.header-con {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.intro-copy-con {
-    width: 30%;
-    color: white;
-    font-size: larger;
-    margin-left: 8%;
-}
-
 .headings {
     font-family: 'Dancing Script', cursive;
 }
@@ -89,99 +74,604 @@
     color: #ff6c00;
 }
 
-video {
-    margin-left: 7%;
+@media only screen and (min-width: 1200px) {
+
+    .header-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .intro-copy-con {
+        width: 30%;
+        color: white;
+        font-size: larger;
+        margin-left: 8%;
+    }
+    
+    
+    video {
+        margin-left: 7%;
+    }
+    
+    .video-con {
+        display: flex;
+        padding-bottom: 50px;
+    }
+    
+    .video-copy-con {
+        color: white;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 70px;
+        font-size: larger;
+    }
+    
+    .caro-section-copy {
+        width: 60%;
+        margin-top: 50px;
+        margin-left: 20%;
+        font-size: larger;
+    }
+    
+    ul {
+        list-style-type: disc;
+    }
+    
+    .caro-con {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .caro-div {
+        width: 60%;
+        margin-left: 20%
+    }
+    
+    .caro-img {
+        width: 100%;
+        height: 550px;
+        border-radius: 10px;
+    }
+    
+    .form-con {
+        padding-bottom: 50px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+    }
+    
+    .form-header {
+        font-size: 40px;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .form-inputs {
+        width: 100%;
+        background: none;
+        outline: none;
+        border: 2px solid white;
+    }
+    
+    .form-inputs::placeholder {
+        color: white;
+    }
+    
+    .input-minimal {
+        border: none;
+        border-bottom: 2px solid white;
+    }
+    
+    .form-button {
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    
+    .form-button:hover {
+        background-color: white;
+        color: #39a8f7;
+        transition-duration: 200ms;
+    }
 }
 
-.video-con {
-    display: flex;
-    padding-bottom: 50px;
+@media only screen and (max-width: 1199px) and (min-width: 993px) {
+
+    .header-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .video-con {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .intro-copy-con {
+        margin-top: 50px;
+        width: 60%;
+        color: white;
+        font-size: larger;
+        margin-left: 8%;
+    }
+
+    .caro-con {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .caro-div {
+        width: 60%;
+        margin-left: 20%
+    }
+    
+    .caro-img {
+        width: 100%;
+        height: 400px;
+        border-radius: 10px;
+    }
+
+    .caro-section-copy {
+        width: 60%;
+        margin-top: 50px;
+        margin-left: 20%;
+        font-size: larger;
+    }
+
+    .form-con {
+        padding-bottom: 50px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+    }
+    
+    .form-header {
+        font-size: 40px;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .form-inputs {
+        width: 100%;
+        background: none;
+        outline: none;
+        border: 2px solid white;
+    }
+    
+    .form-inputs::placeholder {
+        color: white;
+    }
+    
+    .input-minimal {
+        border: none;
+        border-bottom: 2px solid white;
+    }
+    
+    .form-button {
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    
+    .form-button:hover {
+        background-color: white;
+        color: #39a8f7;
+        transition-duration: 200ms;
+    }
+
 }
 
-.video-copy-con {
-    color: white;
-    width: 60%;
-    margin-left: 20%;
-    margin-top: 70px;
-    font-size: larger;
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+    video {
+        width: 500px;
+    }
+
+    .header-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .video-con {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .intro-copy-con {
+        margin-top: 50px;
+        width: 70%;
+        color: white;
+        font-size: medium;
+    }
+
+    .caro-con {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .caro-div {
+        width: 80%;
+        margin-left: 10%
+    }
+    
+    .caro-img {
+        width: 100%;
+        height: 400px;
+        border-radius: 10px;
+    }
+
+    .caro-section-copy {
+        width: 60%;
+        margin-top: 50px;
+        margin-left: 20%;
+        font-size: medium;
+    }
+
+    .form-con {
+        padding-bottom: 50px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+    }
+    
+    .form-header {
+        font-size: 40px;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .form-inputs {
+        width: 100%;
+        background: none;
+        outline: none;
+        border: 2px solid white;
+    }
+    
+    .form-inputs::placeholder {
+        color: white;
+    }
+    
+    .input-minimal {
+        border: none;
+        border-bottom: 2px solid white;
+    }
+    
+    .form-button {
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    
+    .form-button:hover {
+        background-color: white;
+        color: #39a8f7;
+        transition-duration: 200ms;
+    }
+
+    .subheadings {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .subheadings-1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .subheadings-2 {
+        font-size: 15px;
+        font-weight: 700;
+    }
 }
 
-.caro-section-copy {
-    width: 60%;
-    margin-top: 50px;
-    margin-left: 20%;
-    font-size: larger;
+@media only screen and (max-width: 767px) and (min-width: 500px) {
+
+    video {
+        width: 350px;
+        height: 250px;
+    }
+
+    .header-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .video-con {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .intro-copy-con {
+        margin-top: 50px;
+        width: 80%;
+        color: white;
+        font-size: medium;
+    }
+
+    .caro-con {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .caro-div {
+        width: 80%;
+        margin-left: 10%
+    }
+    
+    .caro-img {
+        width: 100%;
+        height: 275px;
+        border-radius: 10px;
+    }
+
+    .caro-section-copy {
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 10%;
+        font-size: medium;
+    }
+
+    .form-con {
+        padding-bottom: 50px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    
+    .form-header {
+        font-size: 40px;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .form-inputs {
+        width: 100%;
+        background: none;
+        outline: none;
+        border: 2px solid white;
+    }
+    
+    .form-inputs::placeholder {
+        color: white;
+    }
+    
+    .input-minimal {
+        border: none;
+        border-bottom: 2px solid white;
+    }
+    
+    .form-button {
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    
+    .form-button:hover {
+        background-color: white;
+        color: #39a8f7;
+        transition-duration: 200ms;
+    }
+
+    .heading1 {
+        font-size: 40px;
+        font-weight: 800;
+        text-shadow: white 1px 1px 1px;
+    }
+
+    .subheadings {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .subheadings-1 {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .subheadings-2 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
 }
 
-ul {
-    list-style-type: disc;
-}
+@media only screen and (max-width: 499px) and (min-width: 320px) {
 
-.caro-con {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+    .link-text {
+        font-size: medium;
+    }
 
-.caro-div {
-    width: 60%;
-    margin-left: 20%
-}
+    video {
+        width: 250px;
+        height: 150px;
+    }
 
-.caro-img {
-    width: 100%;
-    height: 550px;
-    border-radius: 10px;
-}
+    .header-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 
-.form-con {
-    padding-bottom: 50px;
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .video-con {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 50px;
+    }
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 45%;
-}
+    .intro-copy-con {
+        margin-top: 50px;
+        width: 80%;
+        color: white;
+        font-size: small;
+    }
 
-.form-header {
-    font-size: 40px;
-    text-align: left;
-    width: 100%;
-}
+    .caro-con {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .caro-div {
+        width: 80%;
+        margin-left: 10%
+    }
+    
+    .caro-img {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+    }
 
-.form-inputs {
-    width: 100%;
-    background: none;
-    outline: none;
-    border: 2px solid white;
-}
+    .caro-section-copy {
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 10%;
+        font-size: small;
+    }
 
-.form-inputs::placeholder {
-    color: white;
-}
+    .form-con {
+        padding-bottom: 50px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    
+    .form-header {
+        font-size: 40px;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .form-inputs {
+        width: 100%;
+        background: none;
+        outline: none;
+        border: 2px solid white;
+    }
+    
+    .form-inputs::placeholder {
+        color: white;
+    }
+    
+    .input-minimal {
+        border: none;
+        border-bottom: 2px solid white;
+    }
+    
+    .form-button {
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    
+    .form-button:hover {
+        background-color: white;
+        color: #39a8f7;
+        transition-duration: 200ms;
+    }
 
-.input-minimal {
-    border: none;
-    border-bottom: 2px solid white;
-}
+    .heading1 {
+        font-size: 30px;
+        font-weight: 800;
+        text-shadow: white 1px 1px 1px;
+    }
 
-.form-button {
-    color: white;
-    background-color: transparent;
-    border: 2px solid white;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-top: 10px;
-    font-size: 25px;
-}
+    .subheadings {
+        font-size: 18px;
+        font-weight: 700;
+    }
 
-.form-button:hover {
-    background-color: white;
-    color: #39a8f7;
-    transition-duration: 200ms;
+    .subheadings-1 {
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .subheadings-2 {
+        font-size: 10px;
+        font-weight: 700;
+    }
+
 }
